@@ -1,9 +1,12 @@
 import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './css/root.style.css';
+import Board from './components/Board';
 
 function App() {
   return (
     <div className="App">
-      <p>This is my first React app and first commit</p>
+      <Board />
     </div>
   );
 }

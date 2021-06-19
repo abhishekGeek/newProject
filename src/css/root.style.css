@@ -1,0 +1,40 @@
+body {
+    background-color: #3d3c3a;
+}
+p {
+    color: #dbd9ce;
+    font-size: 1em;
+}
+.rows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    border: none;
+    background-color: #3d3c3a;
+}
+.rows > button{
+    padding: 0px;
+    font-size: large;
+    min-height: 100px;
+    min-width: 100px;
+    color: #e6fc51;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.r-2 > button:nth-child(1){
+    border-top: 2px solid #32a852;
+    border-bottom: 2px solid #32a852;
+}
+.r-2 > button:nth-child(2){
+    border-top: 2px solid #32a852;
+    border-bottom: 2px solid #32a852;
+}
+.r-2 > button:nth-child(3){
+    border-top: 2px solid #32a852;
+    border-bottom: 2px solid #32a852;
+}
+.rows > button:nth-child(2){
+    border-left: 2px solid #32a852;
+    border-right: 2px solid #32a852;
+}
